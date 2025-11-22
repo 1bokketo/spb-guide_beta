@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сапог — гид по Петербургу</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+    <header><h1>Сапог</h1></header>
+    <section id="welcome-screen" class="welcome">
+        <h2>Добро пожаловать!</h2>
+        <p>Устали от заезженных экскурсий по Санкт-Петербургу? Представляем нашего гида <b>Сапог!</b><br><br>
+        С ним вы сможете посетить авторские маршруты по фильмам, писателям и деятелям искусства.<br><br>
+        Проведите своё путешествие приятно и полезно вместе с <b>Сапогом :D</b></p>
+        <button id="enter-app">Перейти к маршрутам</button>
+    </section>
+    <section id="main-app" class="hidden">
+        <div class="routes-list" id="routes"></div>
+        <div id="map" class="map"></div>
+        <div id="route-info" class="route-info hidden">
+            <h2 id="route-title"></h2>
+            <p id="route-description"></p>
+            <ul id="route-points"></ul>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

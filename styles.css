@@ -1,0 +1,8 @@
+body { font-family: Arial; margin: 0; padding: 0; }
+header { background:#333;color:#fff;padding:10px;text-align:center; }
+.welcome { padding:20px;text-align:center; }
+.hidden { display:none; }
+.routes-list { padding:10px; }
+.route-card { border:1px solid #ccc; padding:10px;margin-bottom:10px;border-radius:8px; }
+.map { width:100%; height:300px; }
+.route-info { padding:10px; }
